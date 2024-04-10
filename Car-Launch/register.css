@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-image: url(car1.jpeg);
+    opacity: 0.9;
+    background-size: cover;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #de670b;
+}
+
+.event-details, .container{
+    background-color: #f1ecec;
+    width: 500px;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+    justify-content: center;
+    align-items: center; 
+}
+
+.registration-form {
+    background-color: #f1ecec;
+    width: 500px;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display:block;
+    justify-content: center; 
+    align-items: center; 
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #c1510b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
